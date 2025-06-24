@@ -1,0 +1,27 @@
+.action-btn {
+    margin-right: 5px;
+}
+.search-filter-container {
+display: flex;
+gap: 15px;
+margin-bottom: 30px;
+}
+.table-container {
+background-color: #ffffff;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+.table thead th {
+background-color: #f8f9fa;
+color: #333;
+}
+.btn-outline-primary, .btn-outline-danger, .btn-success {
+transition: all 0.3s ease;
+}
+.btn-outline-primary:hover, .btn-outline-danger:hover, .btn-success:hover {
+transform: translateY(-1px);
+}
+.create-btn-container {
+margin-bottom: 15px;
+}
